@@ -8,6 +8,7 @@
 
 import UIKit
 import WaveAnimationView
+import Vision
 
 class homeViewController: UIViewController {
     
