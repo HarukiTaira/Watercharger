@@ -31,9 +31,9 @@ class homeViewController: UIViewController {
         waveCalc(waveParsent: 0.7)
     }
     
-    override func viewDidDisappear(_ animated: Bool) {
-        wave.stopAnimation()
-    }
+//    override func viewDidDisappear(_ animated: Bool) {
+//        wave.stopAnimation()
+//    }
     
     func waveCalc(waveParsent:Float){
         wave.progress = waveParsent

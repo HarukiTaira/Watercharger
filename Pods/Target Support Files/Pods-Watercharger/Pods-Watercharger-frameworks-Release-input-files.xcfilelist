@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-Watercharger/Pods-Watercharger-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework
 ${BUILT_PRODUCTS_DIR}/WaveAnimationView/WaveAnimationView.framework

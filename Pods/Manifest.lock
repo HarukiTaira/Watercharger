@@ -1,16 +1,20 @@
 PODS:
+  - Eureka (5.2.1)
   - WaveAnimationView (1.0.2)
 
 DEPENDENCIES:
+  - Eureka
   - WaveAnimationView
 
 SPEC REPOS:
   trunk:
+    - Eureka
     - WaveAnimationView
 
 SPEC CHECKSUMS:
+  Eureka: c883105488e05bc65539f583246ecf9657cabbfe
   WaveAnimationView: 1ffdf3184884eb3270f4b19cc2e69893fec16b9d
 
-PODFILE CHECKSUM: ba6dc554df6fb150c063e283c30460c8e467ef87
+PODFILE CHECKSUM: 1af91fa4eedd2f9c4abe9cc433b8d069eeccb459
 
 COCOAPODS: 1.8.4

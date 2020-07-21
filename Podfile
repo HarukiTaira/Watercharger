@@ -8,5 +8,5 @@ target 'Watercharger' do
   # Pods for Watercharger
 
 pod "WaveAnimationView"
-
+pod "Eureka"
 end

@@ -70,13 +70,19 @@
             </objects>
             <point key="canvasLocation" x="537.68115942028987" y="209.59821428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Eureka View Controller-->
         <scene sceneID="jk7-Hx-rq2">
             <objects>
-                <viewController id="F1e-5x-RsD" customClass="ViewController" customModule="Watercharger" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="F1e-5x-RsD" customClass="eurekaViewController" customModule="Watercharger" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cA6-O0-hEu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trash" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="OD5-sc-C2d">
+                                <rect key="frame" x="87" y="603" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="0eR-2w-xjq"/>
                     </view>
@@ -105,4 +111,7 @@
             <point key="canvasLocation" x="-372.46376811594206" y="209.59821428571428"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="trash" catalog="system" width="121" height="128"/>
+    </resources>
 </document>

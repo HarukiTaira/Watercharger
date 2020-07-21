@@ -14,6 +14,7 @@
 		2595876B24C496D900F09A09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2595876A24C496D900F09A09 /* Assets.xcassets */; };
 		2595876E24C496D900F09A09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2595876C24C496D900F09A09 /* LaunchScreen.storyboard */; };
 		2595878024C4AF9D00F09A09 /* 水滴アイコン4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2595877F24C4AF9D00F09A09 /* 水滴アイコン4.png */; };
+		25BE2E4124C6D28C002E15D6 /* eurekaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE2E4024C6D28C002E15D6 /* eurekaViewController.swift */; };
 		9F65BBA435F2C2F5A8C84554 /* Pods_Watercharger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058FDCE3950CC14AFD7CD72 /* Pods_Watercharger.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		2595876D24C496D900F09A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2595876F24C496D900F09A09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2595877F24C4AF9D00F09A09 /* 水滴アイコン4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "水滴アイコン4.png"; sourceTree = "<group>"; };
+		25BE2E4024C6D28C002E15D6 /* eurekaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eurekaViewController.swift; sourceTree = "<group>"; };
 		7A36C4F246CFDF99CB48E7A8 /* Pods-Watercharger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watercharger.release.xcconfig"; path = "Target Support Files/Pods-Watercharger/Pods-Watercharger.release.xcconfig"; sourceTree = "<group>"; };
 		F23465FE3E8536002330F008 /* Pods-Watercharger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watercharger.debug.xcconfig"; path = "Target Support Files/Pods-Watercharger/Pods-Watercharger.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +71,7 @@
 				2595876124C496D000F09A09 /* AppDelegate.swift */,
 				2595876324C496D000F09A09 /* SceneDelegate.swift */,
 				2595876724C496D000F09A09 /* Main.storyboard */,
+				25BE2E4024C6D28C002E15D6 /* eurekaViewController.swift */,
 				2595876524C496D000F09A09 /* homeViewController.swift */,
 				2595876A24C496D900F09A09 /* Assets.xcassets */,
 				2595876C24C496D900F09A09 /* LaunchScreen.storyboard */,
@@ -211,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2595876624C496D000F09A09 /* homeViewController.swift in Sources */,
+				25BE2E4124C6D28C002E15D6 /* eurekaViewController.swift in Sources */,
 				2595876224C496D000F09A09 /* AppDelegate.swift in Sources */,
 				2595876424C496D000F09A09 /* SceneDelegate.swift in Sources */,
 			);

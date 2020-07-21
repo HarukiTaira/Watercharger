@@ -4,19 +4,26 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-Watercharger.xcscheme</key>
+		<key>Eureka.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>WaveAnimationView.xcscheme</key>
+		<key>Pods-Watercharger.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>WaveAnimationView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
