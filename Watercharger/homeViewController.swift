@@ -10,17 +10,21 @@ import UIKit
 import WaveAnimationView
 import Vision
 
-class homeViewController: UIViewController {
+class homeViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     @IBOutlet var lapView : UIView!
     @IBOutlet weak var parsent: UILabel!
+    @IBOutlet weak var tableView: UITableView!
     
     var wave : WaveAnimationView!
     var waveParsent :Float!
     var parsentCalc :Int!
     
+    let data = ["250","200"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
         
         // Do any additional setup after loading the view.
         
@@ -40,5 +44,16 @@ class homeViewController: UIViewController {
         parsentCalc = Int(waveParsent * 100)
         parsent.text = String(parsentCalc)+"%"
     }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return data.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell : UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableViewCell
+        cell.textLabel!.text = data[indexPath.row]
+        return cell
+    }
+    
 }
 

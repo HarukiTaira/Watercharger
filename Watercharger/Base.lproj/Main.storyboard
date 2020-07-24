@@ -41,6 +41,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="FWO-IT-KVQ"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="D6N-qv-Ycg"/>
+                                </connections>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3JY-Rh-dPd">
                                 <rect key="frame" x="158" y="321" width="98" height="34"/>
@@ -64,6 +68,7 @@
                     <connections>
                         <outlet property="lapView" destination="JyS-Bx-sJ9" id="O5E-sg-nIE"/>
                         <outlet property="parsent" destination="3JY-Rh-dPd" id="zXy-eK-cuj"/>
+                        <outlet property="tableView" destination="BoV-Hb-Cqo" id="ddt-uZ-9e1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
