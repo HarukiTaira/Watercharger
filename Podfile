@@ -9,4 +9,6 @@ target 'Watercharger' do
 
 pod "WaveAnimationView"
 pod "Eureka"
+pod 'RealmSwift'
+
 end
